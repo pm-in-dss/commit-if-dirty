@@ -1,0 +1,19 @@
+{
+  "name": "commit-if-dirty",
+  "version": "1.0.0",
+  "description": "Commit if dirty",
+  "bin": {
+    "commit-if-dirty": "index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "x"
+  },
+  "keywords": [
+    "git",
+    "commit",
+    "dirty"
+  ],
+  "author": "Pomba Magar <pombam@highground.life>",
+  "license": "Apache-2.0"
+}
