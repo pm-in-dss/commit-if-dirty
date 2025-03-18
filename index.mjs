@@ -61,6 +61,8 @@ try {
 		const branch = exec("git rev-parse --abbrev-ref HEAD");
 
 		await spawn("git", "push", "origin", branch);
+	} else {
+		logger("nothing to commit")
 	}
 } catch (error) {
 	console.error(error.message);
